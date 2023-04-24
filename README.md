@@ -12,7 +12,7 @@ Allur is used as a reporter in this project.
 
 Download or clone a project
 
-To clone a project with `GIT`, call `[git clone (https://github.com/makarkaram/telnyx-cypress-test.git)`
+To clone a project with `GIT`, call `git clone (https://github.com/makarkaram/telnyx-cypress-test.git)`
 
 To install dependencies , call `npm i`
 
