@@ -20,6 +20,8 @@ jobs:
       run: npm i
       
     - name: Run Cypress tests
+      if: always()
+      #id: allure-report
       run: npx cypress run --browser chrome --headless --env allure=true
       
     - name: Reports Generate
