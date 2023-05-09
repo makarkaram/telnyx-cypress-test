@@ -23,7 +23,7 @@ jobs:
       run: npx cypress run --browser chrome --headless --env allure=true
       
     - name: Reports Generate
-      run: npm run allure:clear
+      run: npx allure generate allure-results --clean -o allure-report
     
     - uses: actions/upload-artifact@master
       with:
